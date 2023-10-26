@@ -46,6 +46,10 @@ Egészítsd ki a feladatot, hogy ha páros szám, akkor BAM-ot írjon, és ha 3-
 1, BAM, BUMM, BAM, 5, BUMMBAM, 7 
 """
 def feladat4(a:int):
+    if (a <= 0):
+        print("Hibás bemenet!")
+        return
+    
     i = 1
     while i <= a:
         if i % 3 == 0 and i % 2 == 0:
